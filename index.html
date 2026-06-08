@@ -1,0 +1,1188 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منصة بدوي للاختبارات - badawy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Ahmed.badawy</div>
+        <div class="subtitle">منصة بدوي للاختبارات التفاعلية السريعة</div>
+    </header>
+
+    <div class="container">
+        <h1>📝 اختبار تفاعلي فوري ومباشر (الإجابة الصحيحة تحتها خط)</h1>
+        
+        <h2 class="section-title">أولاً: أسئلة الصواب والخطأ</h2>
+
+        <div class="question-box">
+            <p class="question-text">1. النظام هو مجموعة من الموارد والعناصر المترابطة التي تعمل بشكل <u>منفصل ومستقل</u> عن بعضها.</p>
+            <div class="options">
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'X', 'X', 'تتفاعل وتعمل كوحدة واحدة')">✖ غلط</label>
+                <label class="option-label" onclick="checkInstantTF(this, 'V', 'X', 'تتفاعل وتعمل كوحدة واحدة')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">2. <u>المخرجات</u> هي كل شيء يأتي من خارج النظام وتمثل عناصر موارده الرئيسية.</p>
+            <div class="options">
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'X', 'X', 'المدخلات')">✖ غلط</label>
+                <label class="option-label" onclick="checkInstantTF(this, 'V', 'X', 'المدخلات')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">3. قد تكون مخرجات النظام أشياء ملموسة (مثل السلع) أو غير ملموسة (مثل الخدمات كالتدريس والصحة).</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantTF(this, 'X', 'V', 'عبارة صحيحة تماماً')">✖ غلط</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'V', 'V', 'عبارة صحيحة تماماً')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">4. <u>التغذية العكسية</u> هي العمليات التحويلية المختلفة التي تؤدي إلى تحويل المدخلات إلى مخرجات.</p>
+            <div class="options">
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'X', 'X', 'عملية المعالجة')">✖ غلط</label>
+                <label class="option-label" onclick="checkInstantTF(this, 'V', 'X', 'عملية المعالجة')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">5. تتيح التغذية العكسية للمنظمة إمكانية اتخاذ الإجراءات التصحيحية أولاً بأول لمراجعة الخطط والتأكد من تحقيق الأهداف.</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantTF(this, 'X', 'V', 'عبارة صحيحة تماماً')">✖ غلط</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'V', 'V', 'عبارة صحيحة تماماً')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">6. البيانات والمعلومات هما مصطلحان يعبران عن <u>مفهوم علمي واحد</u> ولا يوجد فرق بينهما.</p>
+            <div class="options">
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'X', 'X', 'مفهومان مختلفان فالبيانات حقائق خام والمعلومات تمت معالجتها')">✖ غلط</label>
+                <label class="option-label" onclick="checkInstantTF(this, 'V', 'X', 'مفهومان مختلفان فالبيانات حقائق خام والمعلومات تمت معالجتها')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">7. البيانات هي مجموعة من الحقائق أو المشاهدات قد تكون أرقاماً أو كلمات أو رموزاً أو حروفاً غير منظمة.</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantTF(this, 'X', 'V', 'عبارة صحيحة وفق تعريف البيانات')">✖ غلط</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'V', 'V', 'عبارة صحيحة وفق تعريف البيانات')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">8. يتم إرسال المعلومات ومعالجتها والاحتفاظ بها في الحاسوب لإظهارها في قالب معين عند الحاجة إليها.</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantTF(this, 'X', 'V', 'عبارة صحيحة وفق تعريف المعلومات')">✖ غلط</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'V', 'V', 'عبارة صحيحة وفق تعريف المعلومات')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">9. من خصائص المعلومات 'الاقتصاد'، ويعني أن تكون تكلفة الحصول على المعلومة <u>أكبر من</u> العائد المالي منها.</p>
+            <div class="options">
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'X', 'X', 'أقل من / العائد أكبر من التكلفة')">✖ غلط</label>
+                <label class="option-label" onclick="checkInstantTF(this, 'V', 'X', 'أقل من / العائد أكبر من التكلفة')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">10. خاصية <u>'الوضوح'</u> تعني تقديم المعلومات في قالب معين لإظهارها وقت طلبها وتحديد توقيت الحاجة إليها.</p>
+            <div class="options">
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'X', 'X', 'التوقيت والملائمة')">✖ غلط</label>
+                <label class="option-label" onclick="checkInstantTF(this, 'V', 'X', 'التوقيت والملائمة')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">11. حد نظام المعلومات هو حدود <u>مادية دائماً</u> تفصله تماماً عن بيئته الخارجية ولا يمكن أن تكون افتراضية.</p>
+            <div class="options">
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'X', 'X', 'قد تكون وهمية أو افتراضية أي غير مادية')">✖ غلط</label>
+                <label class="option-label" onclick="checkInstantTF(this, 'V', 'X', 'قد تكون وهمية أو افتراضية أي غير مادية')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">12. النظم المادية هي نظم <u>لا يمكن لمسها</u> وإنما يمكن تصورها عقلياً مثل المعادلات الجبرية.</p>
+            <div class="options">
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'X', 'X', 'النظم المجردة هي التي لا يمكن لمسها، أما المادية ملموسة')">✖ غلط</label>
+                <label class="option-label" onclick="checkInstantTF(this, 'V', 'X', 'النظم المجردة هي التي لا يمكن لمسها، أما المادية ملموسة')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">13. النظم الثابتة (القطعية) هي النظم التي تحدث فيها الأحداث بشكل حتمي ويمكن التنبؤ بسلوكها بدقة مستقبلاً.</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantTF(this, 'X', 'V', 'عبارة صحيحة مثل النظام الكوني')">✖ غلط</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'V', 'V', 'عبارة صحيحة مثل النظام الكوني')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">14. النظم المغلقة هي النظم التي <u>تتفاعل وتتأثر</u> بالبيئة الخارجية المحيطة بها وتصدر مخرجات لها.</p>
+            <div class="options">
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'X', 'X', 'النظم المفتوحة هي التي تتفاعل وتتأثر، أما المغلقة لا تتأثر')">✖ غلط</label>
+                <label class="option-label" onclick="checkInstantTF(this, 'V', 'X', 'النظم المفتوحة هي التي تتفاعل وتتأثر، أما المغلقة لا تتأثر')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">15. في هرم العلاقة بين البيانات والمعلومات والمعرفة، تحتل المعرفة <u>قاعدة الهرم</u> لأنها الأكثر كثافة والأقل قيمة.</p>
+            <div class="options">
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'X', 'X', 'البيانات تحتل القاعدة والمعرفة تحتل القمة')">✖ غلط</label>
+                <label class="option-label" onclick="checkInstantTF(this, 'V', 'X', 'البيانات تحتل القاعدة والمعرفة تحتل القمة')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">16. تختلف أشكال تقديم المعلومات باختلاف المستويات الإدارية، فالشكل الرقمي يشير إلى مقاييس كمية معينة مثل حجم المبيعات.</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantTF(this, 'X', 'V', 'عبارة صحيحة تماماً وفق البعد الشكلي لجودة المعلومات')">✖ غلط</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'V', 'V', 'عبارة صحيحة تماماً وفق البعد الشكلي لجودة المعلومات')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">17. تكنولوجيا المعلومات هي المورد الرئيسي لنظم المعلومات الإدارية، وتعتبر مجموعة من الأدوات التي تستخدم في التعامل مع المعلومات وتشغيلها.</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantTF(this, 'X', 'V', 'عبارة صحيحة تماماً وفق صفحة 30')">✖ غلط</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'V', 'V', 'عبارة صحيحة تماماً وفق صفحة 30')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">18. أدى نمو وتزايد تكنولوجيا المعلومات وتطورها إلى <u>ارتفاع وتضاعف</u> تكلفتها على المنظمات بمرور الوقت.</p>
+            <div class="options">
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'X', 'X', 'أدى نمو وتزايد تكنولوجيا المعلومات إلى انخفاض تكلفتها وفق صفحة 29')">✖ غلط</label>
+                <label class="option-label" onclick="checkInstantTF(this, 'V', 'X', 'أدى نمو وتزايد تكنولوجيا المعلومات إلى انخفاض تكلفتها وفق صفحة 29')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">19. المعلومات الاستراتيجية هي معلومات تتعلق بالمستقبل وتنطوي على درجة عالية من عدم التأكد وتستخدم في التخطيط طويل الأجل ومسؤولية الإدارة العليا.</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantTF(this, 'X', 'V', 'عبارة صحيحة تماماً وفق صفحة 33')">✖ غلط</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'V', 'V', 'عبارة صحيحة تماماً وفق صفحة 33')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">20. المعلومات التشغيلية تمثل العمليات اليومية أو المتعلقة بالأجل القصير وتتعامل مع قرارات <u>غير روتينية وغير مبرمجة</u>.</p>
+            <div class="options">
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'X', 'X', 'المعلومات التشغيلية تتعامل مع قرارات روتينية ومبرمجة وفق صفحة 33')">✖ غلط</label>
+                <label class="option-label" onclick="checkInstantTF(this, 'V', 'X', 'المعلومات التشغيلية تتعامل مع قرارات روتينية ومبرمجة وفق صفحة 33')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">21. يقصد بفشل النظام فقط توقفه التام عن العمل، ولا يُعد عدم استخدامه بطريقة فعالة فشلاً للنظام.</p>
+            <div class="options">
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'X', 'X', 'يقصد بفشل النظام ليس فقط توقفه وإنما عدم استخدامه بطريقة فعالة أيضاً وفق صفحة 37')">✖ غلط</label>
+                <label class="option-label" onclick="checkInstantTF(this, 'V', 'X', 'يقصد بفشل النظام ليس فقط توقفه وإنما عدم استخدامه بطريقة فعالة أيضاً وفق صفحة 37')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">22. من معايير قياس نجاح نظام المعلومات ارتفاع درجة رضا المستخدم عن النظام والاتجاهات الإيجابية تجاهه.</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantTF(this, 'X', 'V', 'عبارة صحيحة من عوامل وقياس نجاح النظام وفق صفحة 38')">✖ غلط</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'V', 'V', 'عبارة صحيحة من عوامل وقياس نجاح النظام وفق صفحة 38')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">23. يمنع النظام المتكامل للمعلومات الإدارة من الوقوع في أخطاء تخطيطية أو اتخاذ قرارات غير صحيحة نتيجة الاعتماد على بيانات متعارضة.</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantTF(this, 'X', 'V', 'عبارة صحيحة من فوائد النظام المتكامل للإدارة وفق صفحة 36')">✖ غلط</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'V', 'V', 'عبارة صحيحة من فوائد النظام المتكامل للإدارة وفق صفحة 36')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+
+
+<div class="question-box">
+            <p class="question-text">24. يتواجد المورد المعرفي في <u>ذاكرة الحاسب الآلي فقط</u> ولا علاقة له بذهن المدير.</p>
+            <div class="options">
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'X', 'X', 'المورد المعرفي يتواجد في ذهن المدير وفي شكل حقائق مسجلة في ذاكرة الحاسب (صفحة 23).')">✖ غلط</label>
+                <label class="option-label" onclick="checkInstantTF(this, 'V', 'X', 'المورد المعرفي يتواجد في ذهن المدير وفي شكل حقائق مسجلة في ذاكرة الحاسب (صفحة 23).')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">25. ثقافة المعلومات تُعنى بمعرفة نوعية البيانات والمعلومات المطلوبة لكل مجال من مجالات الأعمال والأشكال المطلوبة لتجميعها وحفظها.</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantTF(this, 'X', 'V', 'عبارة صحيحة، وتعتبر ثقافة المعلومات أكثر اتساعاً وأهمية من ثقافة الحاسبات (صفحة 23).')">✖ غلط</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'V', 'V', 'عبارة صحيحة، وتعتبر ثقافة المعلومات أكثر اتساعاً وأهمية من ثقافة الحاسبات (صفحة 23).')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">26. يقتصر الدور المعلوماتي للمدير على اتخاذ القرارات وحل المشكلات <u>دون الحاجة لتجميع أو فرز البيانات</u>.</p>
+            <div class="options">
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'X', 'X', 'الدور المعلوماتي يعني أن المدير لديه القدرة على تجميع وفرز وتصنيف البيانات والمعلومات وتحليلها (صفحة 24).')">✖ غلط</label>
+                <label class="option-label" onclick="checkInstantTF(this, 'V', 'X', 'الدور المعلوماتي يعني أن المدير لديه القدرة على تجميع وفرز وتصنيف البيانات والمعلومات وتحليلها (صفحة 24).')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">27. تتحقق زيادة إنتاجية نظم المعلومات الإدارية عندما تكون مخرجات النظام أكبر من المدخلات التي تحصل عليها.</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantTF(this, 'X', 'V', 'عبارة صحيحة، وتأتي قيمة المخرجات من قدرتها على خدمة المستفيدين (صفحة 25).')">✖ غلط</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'V', 'V', 'عبارة صحيحة، وتأتي قيمة المخرجات من قدرتها على خدمة المستفيدين (صفحة 25).')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">28. التخطيط الملائم والمستمر يساعد في خفض وقت البحث لدى المديرين، مما يؤدي إلى زيادة إنتاجية المنظمة بفضل "فعالية إدارة الوقت".</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantTF(this, 'X', 'V', 'عبارة صحيحة، فأنظمة المعلومات تساعد في خفض وقت البحث كلما زادت إنتاجيتها (صفحة 26).')">✖ غلط</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'V', 'V', 'عبارة صحيحة، فأنظمة المعلومات تساعد في خفض وقت البحث كلما زادت إنتاجيتها (صفحة 26).')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">29. من فوائد النظم المعلوماتية القوية "الارتباط بالنظام العالمي الدقيق" والمساهمة في دعم القرارات السليمة لخدمة الإدارة العليا.</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantTF(this, 'X', 'V', 'عبارة صحيحة تماماً وفقاً للمزايا الهامة المذكورة في صفحة 27.')">✖ غلط</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'V', 'V', 'عبارة صحيحة تماماً وفقاً للمزايا الهامة المذكورة في صفحة 27.')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">30. يقتصر دور العنصر البشري (العاملون) في نظم المعلومات على إدخال البيانات فقط، <u>ولا يتدخلون في وضع الخطط السنوية</u>.</p>
+            <div class="options">
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'X', 'X', 'العاملون يشملون المحللين والمصممين والمديرين، ومن مهامهم وضع وتفنيذ خطط سنوية للمشاريع تغطي كافة الأنشطة (صفحة 28).')">✖ غلط</label>
+                <label class="option-label" onclick="checkInstantTF(this, 'V', 'X', 'العاملون يشملون المحللين والمصممين والمديرين، ومن مهامهم وضع وتفنيذ خطط سنوية للمشاريع تغطي كافة الأنشطة (صفحة 28).')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">31. تعتمد محددات الإدارة الفعالة لنظم المعلومات على تحقيق التوازن بين المركزية واللامركزية لضمان تدفق وتكامل البيانات.</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantTF(this, 'X', 'V', 'عبارة صحيحة، حيث ترتبط النظم بالعديد من المحددات كالإنتاجية والكفاءة واللامركزية (صفحة 30).')">✖ غلط</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'V', 'V', 'عبارة صحيحة، حيث ترتبط النظم بالعديد من المحددات كالإنتاجية والكفاءة واللامركزية (صفحة 30).')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">32. "التخطيط على أساس المشكلات" يعني تصميم نظام معلومات إدارية يكون قادراً على مساعدة الإدارات في تحديد المشكلات وإيجاد الحلول البديلة واختيار الأمثل.</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantTF(this, 'X', 'V', 'عبارة صحيحة، وهو أحد الأسلوبين الرئيسيين لإنشاء النظم بجانب التخطيط على أساس الأهداف (صفحة 31).')">✖ غلط</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'V', 'V', 'عبارة صحيحة، وهو أحد الأسلوبين الرئيسيين لإنشاء النظم بجانب التخطيط على أساس الأهداف (صفحة 31).')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">33. تقدم نظم دعم فرق العمل ميزة حيوية باعتبارها حلقة وصل بين مديري الإدارات المختلفة لتبادل الأفكار وتنسيق الجهود.</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantTF(this, 'X', 'V', 'عبارة صحيحة تماماً وفقاً لتعريف نظم دعم فرق العمل في صفحة 32.')">✖ غلط</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'V', 'V', 'عبارة صحيحة تماماً وفقاً لتعريف نظم دعم فرق العمل في صفحة 32.')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">34. تشتمل "المعلومات البيئية الخارجية" للمنظمة على معلومات كمية ووصفية تخص السكان ومستويات الأسعار ووسائل النقل المتاحة.</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantTF(this, 'X', 'V', 'عبارة صحيحة، وهي أمثلة لمعلومات البيئة الخارجية التي تؤثر على المنظمة (صفحة 35).')">✖ غلط</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'V', 'V', 'عبارة صحيحة، وهي أمثلة لمعلومات البيئة الخارجية التي تؤثر على المنظمة (صفحة 35).')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+<div class="question-box">
+            <p class="question-text">35. تتسم مرحلة <u>التصميم المنطقي</u> بنظم المعلومات بالتركيز الكامل على تحديد مواصفات الأجهزة والمعدات المادية الفعالة وشراء الحواسب.</p>
+            <div class="options">
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'X', 'X', 'التصميم المنطقي يركز على التدفق الفكري والخصائص الوظيفية دون مواصفات مادية، أما الأجهزة فمن اختصاص التصميم المادي (صفحة 41).')">✖ غلط</label>
+                <label class="option-label" onclick="checkInstantTF(this, 'V', 'X', 'التصميم المنطقي يركز على التدفق الفكري والخصائص الوظيفية دون مواصفات مادية، أما الأجهزة فمن اختصاص التصميم المادي (صفحة 41).')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">36. في مرحلة التحليل، يجب على المحلل دراسة النظام القائم وتحديد مشكلاته وتحديد الاحتياجات الجديدة للمستخدمين بدقة كاملة.</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantTF(this, 'X', 'V', 'عبارة صحيحة تماماً، حيث تهدف مرحلة التحليل لفهم النظام الحالي وصياغة متطلبات النظام الجديد (صفحة 40).')">✖ غلط</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'V', 'V', 'عبارة صحيحة تماماً، حيث تهدف مرحلة التحليل لفهم النظام الحالي وصياغة متطلبات النظام الجديد (صفحة 40).')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">37. يُعد "أسلوب النموذج المبدئي" (Prototyping) خياراً مثالياً عندما تكون متطلبات واحتياجات المستخدمين <u>واضحة وثابتة تماماً</u> منذ البداية.</p>
+            <div class="options">
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'X', 'X', 'يُستخدم أسلوب النموذج المبدئي عندما تكون الاحتياجات غامضة أو غير محددة بدقة لتسهيل التجربة والتعديل (صفحة 44).')">✖ غلط</label>
+                <label class="option-label" onclick="checkInstantTF(this, 'V', 'X', 'يُستخدم أسلوب النموذج المبدئي عندما تكون الاحتياجات غامضة أو غير محددة بدقة لتسهيل التجربة والتعديل (صفحة 44).')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">38. من عيوب أسلوب النموذج المبدئي إمكانية المرور بمراحل تعديل دائرية مستمرة لا تنتهي إذا لم يتم التحكم في طلبات المستخدمين.</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantTF(this, 'X', 'V', 'عبارة صحيحة، فالتكرار الزائد قد يؤدي إلى عدم الاستقرار التنظيمي وصعوبة التنبؤ بوقت الانتهاء (صفحة 46).')">✖ غلط</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'V', 'V', 'عبارة صحيحة، فالتكرار الزائد قد يؤدي إلى عدم الاستقرار التنظيمي وصعوبة التنبؤ بوقت الانتهاء (صفحة 46).')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">39. نظم دعم القرار (DSS) مصممة لمساعدة المديرين في اتخاذ القرارات في المشاكل <u>المهيكلة والروتينية اليومية فقط</u>.</p>
+            <div class="options">
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'X', 'X', 'نظم دعم القرار تركز أساساً على المشاكل غير المهيكلة وشبه المهيكلة التي تتطلب حكماً وتقديراً شخصياً (صفحة 49).')">✖ غلط</label>
+                <label class="option-label" onclick="checkInstantTF(this, 'V', 'X', 'نظم دعم القرار تركز أساساً على المشاكل غير المهيكلة وشبه المهيكلة التي تتطلب حكماً وتقديراً شخصياً (صفحة 49).')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">40. تشتمل النظم الخبيرة (Expert Systems) على قاعدة معرفية ومحرك استدلال لمحاكاة تفكير الخبراء البشر في حل المشكلات المعقدة.</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantTF(this, 'X', 'V', 'عبارة صحيحة تماماً، وهي تمثل أحد التطبيقات المتقدمة للذكاء الاصطناعي في الإدارة (صفحة 52).')">✖ غلط</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'V', 'V', 'عبارة صحيحة تماماً، وهي تمثل أحد التطبيقات المتقدمة للذكاء الاصطناعي في الإدارة (صفحة 52).')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">41. الاستراتيجية المباشرة (الفورية) لتطبيق النظم تعني التوقف المفاجئ عن استخدام النظام القديم وتشغيل النظام الجديد <u>في نفس اليوم</u> بجميع الفروع.</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantTF(this, 'X', 'V', 'عبارة صحيحة، وتسمى الإحلال المباشر وتنطوي على نسبة مخاطرة عالية جداً في حالة حدوث أعطال (صفحة 42).')">✖ غلط</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'V', 'V', 'عبارة صحيحة، وتسمى الإحلال المباشر وتنطوي على نسبة مخاطرة عالية جداً في حالة حدوث أعطال (صفحة 42).')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">42. تتميز طريقة التشغيل المتوازي بكونها <u>الأقل تكلفة مادية</u> بين جميع استراتيجيات تطبيق النظم الإدارية الجديدة.</p>
+            <div class="options">
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'X', 'X', 'طريقة التشغيل المتوازي هي الأعلى تكلفة لأنها تتطلب تشغيل النظامين معاً ودفع أجور وتكاليف مضاعفة لضمان الأمان (صفحة 42).')">✖ غلط</label>
+                <label class="option-label" onclick="checkInstantTF(this, 'V', 'X', 'طريقة التشغيل المتوازي هي الأعلى تكلفة لأنها تتطلب تشغيل النظامين معاً ودفع أجور وتكاليف مضاعفة لضمان الأمان (صفحة 42).')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">43. تعتمد النظم الفرعية الوظيفية لنظم المعلومات على تزويد الإدارة بمعلومات متخصصة، مثل نظام معلومات الموارد البشرية ونظام معلومات التصنيع.</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantTF(this, 'X', 'V', 'عبارة صحيحة، فالنظم الفرعية تتبع الهيكل الوظيفي التقليدي للمؤسسة (صفحة 47).')">✖ غلط</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'V', 'V', 'عبارة صحيحة، فالنظم الفرعية تتبع الهيكل الوظيفي التقليدي للمؤسسة (صفحة 47).')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">44. يتكون نموذج نظام دعم القرار (DSS) من ثلاثة مكونات رئيسية هي: قاعدة البيانات، وقاعدة النماذج، ونظام واجهة المستخدم التفاعلية.</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantTF(this, 'X', 'V', 'عبارة صحيحة تماماً تمثل الهيكل الفني لنظام دعم القرارات (صفحة 50).')">✖ غلط</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'V', 'V', 'عبارة صحيحة تماماً تمثل الهيكل الفني لنظام دعم القرارات (صفحة 50).')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+        <div class="question-box">
+            <p class="question-text">45. يُقصد بـ <u>الملف الصامت (Flat File)</u> النظام الذي يتم فيه ربط الجداول معاً بواسطة علاقات منطقية ومفاتيح مشتركة.</p>
+            <div class="options">
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'X', 'X', 'الملف الصامت يخزن البيانات في جدول واحد عشوائي ولا يحتوي على علاقات، بينما الربط هو ميزة قواعد البيانات 관계ية (صفحة 57).')">✖ غلط</label>
+                <label class="option-label" onclick="checkInstantTF(this, 'V', 'X', 'الملف الصامت يخزن البيانات في جدول واحد عشوائي ولا يحتوي على علاقات، بينما الربط هو ميزة قواعد البيانات 관계ية (صفحة 57).')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">46. يعتبر "المفتاح الأساسي" (Primary Key) حَقلاً فريداً داخل الجدول لا يمكن أن تتكرر قيمته ولا يمكن أن يُترك فارغاً (Null).</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantTF(this, 'X', 'V', 'عبارة صحيحة تماماً، مثل رقم الجلوس أو الرقم القومي للموظف (صفحة 59).')">✖ غلط</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'V', 'V', 'عبارة صحيحة تماماً، مثل رقم الجلوس أو الرقم القومي للموظف (صفحة 59).')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">47. تهدف عملية "تطبيع البيانات" (Normalization) إلى زيادة تكرار البيانات داخل الجداول لضمان عدم ضياعها <u>عند انقطاع التيار الكهربائي</u>.</p>
+            <div class="options">
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'X', 'X', 'عملية التطبيع تهدف إلى منع وتقليل تكرار البيانات غير المبرر وتجنب مشاكل الحذف والتحديث (صفحة 61).')">✖ غلط</label>
+                <label class="option-label" onclick="checkInstantTF(this, 'V', 'X', 'عملية التطبيع تهدف إلى منع وتقليل تكرار البيانات غير المبرر وتجنب مشاكل الحذف والتحديث (صفحة 61).')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">48. شبكة حاسب من النوع (LAN) هي شبكة محلية تغطي مساحة جغرافية محدودة جداً مثل مبنى شركة أو مدرسة أو معمل حاسب آلي.</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantTF(this, 'X', 'V', 'عبارة صحيحة، وهي اختصار لـ Local Area Network وتتميز بسرعتها العالية ومساحتها المحدودة (صفحة 64).')">✖ غلط</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'V', 'V', 'عبارة صحيحة، وهي اختصار لـ Local Area Network وتتميز بسرعتها العالية ومساحتها المحدودة (صفحة 64).')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">49. تُعد شبكة "الإنترانت" (Intranet) شبكة عامة ومفتوحة <u>لجميع المواطنين من خارج المنظمة</u> للاطلاع على أسرار الشركة المالية.</p>
+            <div class="options">
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'X', 'X', 'الإنترانت هي شبكة داخلية خاصة بالمنظمة فقط ومحمية بجدار ناري لمنع دخول الأفراد من الخارج (صفحة 67).')">✖ غلط</label>
+                <label class="option-label" onclick="checkInstantTF(this, 'V', 'X', 'الإنترانت هي شبكة داخلية خاصة بالمنظمة فقط ومحمية بجدار ناري لمنع دخول الأفراد من الخارج (صفحة 67).')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">50. يُقصد بنموذج التجارة الإلكترونية (B2C) التعاملات التجارية والخدمية القائمة والمتبادلة بين الشركات والمستهلك النهائي مباشرة.</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantTF(this, 'X', 'V', 'عبارة صحيحة، مثل قيام موقع أمازون بالبيع مباشرة للأفراد (صفحة 71).')">✖ غلط</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'V', 'V', 'عبارة صحيحة، مثل قيام موقع أمازون بالبيع مباشرة للأفراد (صفحة 71).')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">51. تقتصر فوائد التجارة الإلكترونية للمنظمات على تقليل التكاليف فقط، <u>ولا علاقة لها بتوسيع نطاق السوق عالمياً</u>.</p>
+            <div class="options">
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'X', 'X', 'التجارة الإلكترونية تسمح للمنظمات بالوصول للأسواق العالمية والتواجد على مدار 24 ساعة طوال أيام الأسبوع (صفحة 73).')">✖ غلط</label>
+                <label class="option-label" onclick="checkInstantTF(this, 'V', 'X', 'التجارة الإلكترونية تسمح للمنظمات بالوصول للأسواق العالمية والتواجد على مدار 24 ساعة طوال أيام الأسبوع (صفحة 73).')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">52. يُعد جدار الحماية (Firewall) نظاماً برمجياً أو مادياً يقوم بفحص تدفق البيانات الواردة والصادرة لحماية الشبكة الداخلية من الاختراقات.</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantTF(this, 'X', 'V', 'عبارة صحيحة تماماً، ويمثل خط الدفاع الأول لحماية أمن المعلومات بالشبكات (صفحة 68).')">✖ غلط</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'V', 'V', 'عبارة صحيحة تماماً، ويمثل خط الدفاع الأول لحماية أمن المعلومات بالشبكات (صفحة 68).')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+        
+        <div class="question-box">
+            <p class="question-text">53. يُقصد بـ <u>الهندسة الاجتماعية (Social Engineering)</u> اختراق الحواسب عن طريق كتابة أكواد برمجية معقدة لتعطيل خوادم الشركات الكبرى.</p>
+            <div class="options">
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'X', 'X', 'الهندسة الاجتماعية تعتمد على الخداع النفسي والتلاعب بالبشر لاستدراجهم وكشف معلوماتهم السرية وليس الأكواد (صفحة 77).')">✖ غلط</label>
+                <label class="option-label" onclick="checkInstantTF(this, 'V', 'X', 'الهندسة الاجتماعية تعتمد على الخداع النفسي والتلاعب بالبشر لاستدراجهم وكشف معلوماتهم السرية وليس الأكواد (صفحة 77).')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">54. برامج الفدية (Ransomware) هي نوع من البرمجيات الخبيثة التي تقوم بتشفير ملفات المستخدم وتطالب بمبالغ مالية مقابل فك التشفير.</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantTF(this, 'X', 'V', 'عبارة صحيحة تماماً، وهي من أخطر التهديدات السيبرانية التي تواجه المؤسسات حالياً (صفحة 79).')">✖ غلط</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'V', 'V', 'عبارة صحيحة تماماً، وهي من أخطر التهديدات السيبرانية التي تواجه المؤسسات حالياً (صفحة 79).')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">55. تعني <u>سرية البيانات (Confidentiality)</u> التأكد من أن المعلومات متاحة وقابلة للوصول في أي وقت يحتاجها المستخدم المصرح له بذلك.</p>
+            <div class="options">
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'X', 'X', 'إتاحة المعلومات هي التوافر (Availability)، أما السرية فتعني منع غير المصرح لهم من الاطلاع على البيانات (صفحة 81).')">✖ غلط</label>
+                <label class="option-label" onclick="checkInstantTF(this, 'V', 'X', 'إتاحة المعلومات هي التوافر (Availability)، أما السرية فتعني منع غير المصرح لهم من الاطلاع على البيانات (صفحة 81).')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">56. من عناصر أمن المعلومات "سلامة البيانات" (Integrity) وتعني حمايتها من التعديل أو التغيير غير المصرح به أثناء نقلها أو تخزينها.</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantTF(this, 'X', 'V', 'عبارة صحيحة، لضمان أن تبقى البيانات دقيقة ومطابقة للأصل دون تلاعب (صفحة 82).')">✖ غلط</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'V', 'V', 'عبارة صحيحة، لضمان أن تبقى البيانات دقيقة ومطابقة للأصل دون تلاعب (صفحة 82).')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">57. تقتصر التهديدات الأمنية لنظم المعلومات على الهجمات الخارجية فقط، <u>ولا يمكن أن تحدث أي اختراقات بسبب موظفي الداخل</u>.</p>
+            <div class="options">
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'X', 'X', 'التهديدات الداخلية من الموظفين (سواء بقصد أو بالإهمال) تعتبر من أكبر مصادر الخطر على أمن معلومات المؤسسات (صفحة 84).')">✖ غلط</label>
+                <label class="option-label" onclick="checkInstantTF(this, 'V', 'X', 'التهديدات الداخلية من الموظفين (سواء بقصد أو بالإهمال) تعتبر من أكبر مصادر الخطر على أمن معلومات المؤسسات (صفحة 84).')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">58. تهدف أخلاقيات نظم المعلومات (Cyberethics) إلى وضع معايير سلوكية تحكم استخدام الأفراد للحواسب والشبكات لمنع الإضرار بالآخرين.</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantTF(this, 'X', 'V', 'عبارة صحيحة تماماً، وهي تشمل احترام الملكية الفكرية وخصوصية بيانات الآخرين (صفحة 88).')">✖ غلط</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'V', 'V', 'عبارة صحيحة تماماً، وهي تشمل احترام الملكية الفكرية وخصوصية بيانات الآخرين (صفحة 88).')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">59. تعتبر <u>الملكية الفكرية</u> برمجيات عامة مجانية يحق لأي شخص إعادة بيعها وتعديل أكوادها دون مساءلة قانونية.</p>
+            <div class="options">
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'X', 'X', 'الملكية الفكرية تحمي حقوق المبتكرين والمصممين وتمنع نسخ أو تداول البرامج تجارياً دون إذن مسبق (صفحة 90).')">✖ غلط</label>
+                <label class="option-label" onclick="checkInstantTF(this, 'V', 'X', 'الملكية الفكرية تحمي حقوق المبتكرين والمصممين وتمنع نسخ أو تداول البرامج تجارياً دون إذن مسبق (صفحة 90).')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">60. الحوسبة السحابية (Cloud Computing) تتيح للمؤسسات تخزين بياناتها ومعالجتها عبر خوادم إنترنت بعيدة دون الحاجة لبناء مراكز بيانات ضخمة محلياً.</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantTF(this, 'X', 'V', 'عبارة صحيحة، وتقدم ميزات مرونة عالية وخفض كبير في التكاليف الرأسمالية للمؤسسات (صفحة 93).')">✖ غلط</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantTF(this, 'V', 'V', 'عبارة صحيحة، وتقدم ميزات مرونة عالية وخفض كبير في التكاليف الرأسمالية للمؤسسات (صفحة 93).')">✔ صح</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <h2 class="section-title" style="margin-top:50px;">ثانياً: أسئلة الاختيار من متعدد (MCQ)</h2>
+
+        <div class="question-box">
+            <p class="question-text">1. يُعرف النظام بأنه مجموعة من الموارد والعناصر المترابطة التي تتفاعل مع بعضها البعض داخل إطار معين وتعمل كـ:</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">أ) وحدات منفصلة ومستقلة.</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantMCQ(this, true)">ب) وحدة واحدة نحو تحقيق هدف أو مجموعة أهداف.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ج) نظام مغلق لا يتأثر بالبيئة الخارجية دائماً.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">د) أداة لتخزين البيانات فقط دون معالجتها.</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">2. المكون الذي يمثل كل شيء يأتي من خارج النظام ويمثل عناصر موارده الرئيسية هو:</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">أ) المخرجات.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ب) المعالجة.</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantMCQ(this, true)">ج) المدخلات.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">د) الحدود الافتراضية.</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">3. العمليات التحويلية المختلفة التي تجري على عناصر مدخلات النظام لتؤدي إلى تحويلها إلى مخرجات تُسمى:</p>
+            <div class="options">
+                <label class="option-label correct-answer-line" onclick="checkInstantMCQ(this, true)">أ) عملية المعالجة.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ب) التغذية العكسية.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ج) البيئة المحيطة.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">د) المدخلات الثانوية.</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">4. مجموعة من الحقائق أو المشاهدات أو التقديرات غير المنظمة التي قد تكون أرقاماً أو كلمات تعبر عن:</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">أ) المعرفة.</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantMCQ(this, true)">ب) البيانات.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ج) المعلومات.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">د) النظم الخبيرة.</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">5. تقديم المعلومات فور طلبها وفي الوقت المناسب للمساعدة في اتخاذ القرار يعبر عن خاصية:</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">أ) الدقة.</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantMCQ(this, true)">ب) التوقيت والملائمة.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ج) الإيجاز.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">د) الموضوعية.</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">6. خاصية للنظام تعني النظر إليه ككل وليس مجرد مجموع من العناصر، حيث تعمل الأجزاء بشكل متكامل ومتبادل تعبر عن:</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">أ) التكيف.</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantMCQ(this, true)">ب) الشمول للنظام.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ج) حدود النظام الافتراضية.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">د) مدخلات النظام المادية.</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">7. أي مما يلي يُعد من "مصادر المعلومات" الرئيسية للمؤسسات وفقاً لما ورد في المخطط الشرحي؟</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">أ) المواد الخام والآلات المصنعة.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ب) المخرجات المادية غير الملموسة فقط.</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantMCQ(this, true)">ج) الدوريات العلمية والمؤتمرات، والمطبوعات الرسمية.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">د) العمليات التحويلية الآلية.</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">8. النظم التي تشتمل على مفاهيم ومعانٍ وأفكار يتميز بأن جميع عناصرها مفاهيم، ولا تفهم إلا بالحقائق العقلية هي:</p>
+            <div class="options">
+                <label class="option-label correct-answer-line" onclick="checkInstantMCQ(this, true)">أ) النظم الفكرية.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ب) النظم الطبيعية (الكونية).</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ج) النظم الصناعية.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">د) النظم الاحتمالية.</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">9. من معايير "بعد المحتوى" لـ جودة المعلومات، وتعني الدرجة التي تغطي فيها المعلومات احتياجات المستفيدين بصورة كاملة دون تفصيل زائد ودون إيجاز مخل:</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">أ) الدقة.</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantMCQ(this, true)">ب) الشمولية.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ج) الوفرة.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">د) المطابقة للحقيقة.</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">10. أي من الخيارات التالية يوضح الترتيب التصاعدي الصحيح لـ "هرم المعلومات" من حيث القيمة والأعلى في الكثافة والمعنى؟</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">أ) معرفة -> معلومات -> بيانات.</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantMCQ(this, true)">ب) بيانات -> معلومات -> معرفة.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ج) معلومات -> بيانات -> معرفة.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">د) معرفة -> بيانات -> معلومات.</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">11. أي من الخيارات التالية يمثل عنصراً أساسياً في نظم المعلومات الإدارية يقع عليه عبء وضع وتحديث الخطط السنوية للمشاريع ودراسة وتحديد احتياجات الإدارات؟</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">أ) البرمجيات الجاهزة.</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantMCQ(this, true)">ب) العاملون (العنصر البشري من محللين ومبرمجين ومديرين).</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ج) شبكات الاتصال السلكية واللاسلكية.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">د) قواعد البيانات الصماء فقط.</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">12. تصنف المعلومات حسب "وظائف المنظمة" إلى عدة أنواع رئيسية، منها معلومات التسويق ومعلومات:</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">أ) التخطيط والرقابة.</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantMCQ(this, true)">ب) الإنتاج، والتمويل، والأفراد.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ج) المعلومات الاستراتيجية والتشغيلية.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">د) المعلومات البيئية والسكانية.</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">13. وفقاً لتصنيف مصادر المعلومات "حسب مصادر الحصول عليها"، فإن معلومات البيئة الخارجية للمنظمة تشتمل على معلومات:</p>
+            <div class="options">
+                <label class="option-label correct-answer-line" onclick="checkInstantMCQ(this, true)">أ) معلومات بيئية (مثل السكان، ومستويات الأسعار، ووسائل النقل المتاحة).</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ب) معلومات كمية مالية مثل الأرباح والتكاليف.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ج) معلومات الموارد البشرية الداخلية فقط.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">د) معلومات روتينية تشغيلية قصيرة الأجل.</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">14. عندما يفشل التصميم الفعلي للنظام في تحقيق الاحتياجات الأساسية للمنظمات، بحيث لا يقدم المعلومات بالسرعة الكافية أو يقدم بيانات خاطئة، فإن هذا يُعد من:</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">أ) عوامل نجاح النظام التكنولوجي.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ب) معايير جودة معلومات المحتوى.</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantMCQ(this, true)">ج) عوامل فشل نظام المعلومات (عامل التصميم).</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">د) أبعاد التغذية العكسية المادية.</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">15. التخطيط الذي يتم على أساس "المشكلات"، يعني تصميم نظام معلومات إدارية يكون قادراً على مساعدة المستويات الإدارية المختلفة على تحديد المشكلات وإيجاد الحلول البديلة واختيار الحل الأمثل، هذا يمثل:</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">أ) التخطيط على أساس الأهداف العامة فقط.</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantMCQ(this, true)">ب) التخطيط على أساس المشكلات كأحد أساليب إنشاء النظم.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ج) نظم دعم التنفيذيين العليا المتأخرة.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">د) التغذية العكسية المنفصلة تكنولوجياً.</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+
+        <div class="question-box">
+            <p class="question-text">16. أي من الخيارات التالية يمثل معايير "بعد المحتوى" لتقييم جودة المعلومات بالمؤسسة؟</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">أ) الشكل النصي، الشكل الرقمي، الرسوم البيانية.</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantMCQ(this, true)">ب) الشمولية، الملائمة، الوفرة، المطابقة للحقيقة، الدقة (صفحة 19).</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ج) التوقيت، الفترة الزمنية، سرعة الاسترجاع التكنولوجي.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">د) وسيط العرض وشاشات الحاسب الآلي المطبوعة.</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">17. تختلف أشكال تقديم المعلومات تتبعاً للمستوى الإداري، ويشير "الشكل الرقمي" إلى:</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">أ) سجلات الموظفين وسجلات أسماء العاملين فقط.</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantMCQ(this, true)">ب) مقاييس كمية معينة مثل حجم المبيعات ومعدل دوران المخزون (صفحة 20).</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ج) رسومات توضح العلاقة بين متغيرين في فترات زمنية.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">د) برمجيات الجداول الصماء دون معالجة فكرية.</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">18. يشتمل "المورد المادي" لنظم المعلومات الإدارية داخل المؤسسات على عناصر أساسية هي:</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">أ) ثقافة الحاسبات وثقافة المعلومات الحتمية.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ب) الحقائق المسجلة في ذهنية المستويات العليا.</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantMCQ(this, true)">ج) رأس المال، الخامات، البشر، الطاقة، الآلات والمعدات (صفحة 23).</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">د) العلاقات والاتصالات السلكية فقط.</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">19. عندما يقوم المدير بممارسة أدواره والاعتماد على مهاراته وقدراته الإبداعية والإنسانية والوظيفية، فإنه يمارس ما يُعرف بـ:</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">أ) الدور المعلوماتي الصرف.</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantMCQ(this, true)">ب) الدور الشخصي (صفحة 24).</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ج) الدور القراري المرتبط بالتغيير.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">د) دور قياس الأداء الميكانيكي.</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">20. يعتمد "الدور القراري" للمدير في الأساس على ممارسة ونجاح دورين سابقين هما:</p>
+            <div class="options">
+                <label class="option-label correct-answer-line" onclick="checkInstantMCQ(this, true)">أ) الدور الشخصي والدور المعلوماتي معاً بكفاءة (صفحة 24).</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ب) دور التوجيه الفعال والتخطيط التشغيلي.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ج) دور قياس الأداء وتوفير المعدات المادية.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">د) الدور البيئي الخارجي والداخلي.</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">21. من عناصر تحديد إنتاجية نظم المعلومات "التوجيه الفعال"، ويقصد به طبقاً لصفحة 25:</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">أ) وضع الجداول الزمنية للأنشطة في الإدارات الدنيا.</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantMCQ(this, true)">ب) توجيه العاملين بالمعلومات اللازمة لتحديد ما هو مطلوب منهم لضمان تنفيذ الخطط (صفحة 25).</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ج) إمداد العاملين بالقواعد الحتمية لرفض الرقابة الفعلية.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">د) شراء البرمجيات الحديثة بأقل تكلفة مالية ممكنة.</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">22. تخدم النظم الفرعية بالتكتيكية (نظم التقارير الإدارية) مديري ورؤساء الأقسام بالإدارة الوسطى عن طريق تقديم تقارير مخصصة مثل:</p>
+            <div class="options">
+                <label class="option-label correct-answer-line" onclick="checkInstantMCQ(this, true)">أ) تقارير مستويات استغلال الطاقة وتقارير تحليل الوقت الضائع (صفحة 31).</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ب) تقارير استراتيجية مستقبلية تمتد لسنوات طويلة جداً.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ج) جداول الحضور والانصراف اليومية للعاملين الصغار.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">د) وثائق التجارة الخارجية ومعدلات التبادل الدولي.</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">23. تُصنف المعلومات الإدارية حسب "وظائف المنظمة" الرئيسية إلى أربعة أنواع تشمل معلومات التسويق، والإنتاج، والتمويل، بالإضافة إلى معلومات:</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">أ) البيئة السكانية والمجتمعية الخارجية.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ب) التخطيط والرقابة وقياس الأداء اللحظي.</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantMCQ(this, true)">ج) الأفراد (الموارد البشرية) واختيار العاملين وتعيينهم (صفحة 35).</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">د) النظم الافتراضية والرياضية المعقدة.</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">24. تنقسم "المعلومات الداخلية" للمنظمة حسب طبيعة صياغتها الكمية والوصفية إلى معلومات كمية مالية، ومعلومات كمية مادية، ومعلومات وصفية مثل:</p>
+            <div class="options">
+                <label class="option-label correct-answer-line" onclick="checkInstantMCQ(this, true)">أ) اتجاهات العملاء والعلاقات العامة (صفحة 36).</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ب) الأرباح والخسائر والتدفقات النقدية السنوية.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ج) أعداد المواد الخام وحجم الآلات المتاحة بالمصنع.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">د) القوانين واللوائح الحكومية المفروضة من الخارج.</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">25. من فوائد النظام المتكامل للمعلومات قدرته المباشرة على تحقيق تكامل فوري وتنسيقي بين بيانات الإدارات المختلفة مثل:</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">أ) بيانات الوزارات والمصالح الحكومية الخارجية تماماً.</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantMCQ(this, true)">ب) البيانات الإنتاجية والتسويقية والتمويلية داخل المنظمة ككل (صفحة 37).</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ج) المنافسين الإقليميين وخططهم طويلة الأجل.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">د) البيانات العشوائية غير المتسقة مسبقاً.</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">26. عندما يرجع فشل نظام المعلومات إلى "عامل التصميم"، فإن ذلك يعني أن النظام الفعلي قد وقع في مشكلة:</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">أ) زيادة الأرباح المالية بصورة غير متوقعة للملاك.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ب) رضا كامل وتام من جهة العنصر البشري والمستخدمين.</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantMCQ(this, true)">ج) لا يقدم المعلومات بالسرعة الكافية، أو يقدم بيانات خاطئة، أو معقد لدرجة تمنع التفاعل الفني معه (صفحة 37).</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">د) انخفاض تكاليف تشغيل الصيانة السنوية الدورية.</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">38، إذا كانت تكلفة تنفيذ وتشغيل النظام أكبر من المنافع المقدرة له في الموازنة، فإن الفشل هنا يرجع إلى عامل:</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">أ) البيانات والغموض.</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantMCQ(this, true)">ب) التكاليف (صفحة 38).</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ج) التشغيل المتأخر.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">د) التدريب غير الملائم.</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+   
+   <div class="question-box">
+            <p class="question-text">28. ما هي المرحلة التي يتم فيها كتابة البرامج وتدريب المستخدمين واختيار استراتيجية التحول إلى النظام الجديد؟</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">أ) مرحلة دراسة الجدوى والتحليل الفكري.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ب) مرحلة التصميم المنطقي للبيانات.</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantMCQ(this, true)">ج) مرحلة التطبيق والتنفيذ الفعلي (صفحة 42).</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">د) مرحلة الصيانة الدورية اللاحقة.</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">29. استراتيجية لتطبيق النظم تعتمد على تجربة النظام الجديد في إدارة واحدة أو فرع واحد أولاً، فإذا نجح يتم تعميمه على باقي المنظمة:</p>
+            <div class="options">
+                <label class="option-label correct-answer-line" onclick="checkInstantMCQ(this, true)">أ) الاستراتيجية المرحلية أو النظام التجريبي (صفحة 43).</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ب) استراتيجية الإحلال الفوري المباشر.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ج) استراتيجية التشغيل المتوازي الكامل.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">د) استراتيجية التجميد الشامل للبيانات.</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">30. أي مما يلي يُعد من أبرز مزايا "أسلوب النموذج المبدئي" (Prototyping) في تطوير نظم المعلومات الإدارية؟</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">أ) انخفاض كامل في تكلفة البرمجيات والمعدات الثقيلة.</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantMCQ(this, true)">ب) تشجيع المشاركة الفعالة للمستفيدين وتقليل مقاومة التغيير (صفحة 45).</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ج) الاستغناء التام عن دور محلل ومصمم النظم.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">د) تطبيق النظام بدون إجراء أي عمليات فحص أو مراجعة.</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">31. النظم التي تدمج صفات نظم المعلومات التقليدية مع آليات النمذجة التحليلية لمساعدة الإدارة العليا في حل المشكلات غير المهيكلة هي:</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">أ) نظم معالجة المعاملات اليومية (TPS).</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ب) النظم الفرعية المحاسبية الصماء.</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantMCQ(this, true)">ج) نظم دعم القرار الذكية (DSS) (صفحة 49).</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">د) النظم المكتبية والأرشفة الميكانيكية.</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">32. يتكون المكون الخاص بـ "قاعدة النماذج" في نظم دعم القرار (DSS) من نماذج متعددة تستخدم في التحليل، ومن أبرزها:</p>
+            <div class="options">
+                <label class="option-label correct-answer-line" onclick="checkInstantMCQ(this, true)">أ) النماذج الاستراتيجية، النماذج التكتيكية، النماذج التشغيلية (صفحة 51).</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ب) النماذج الرياضية الجبرية الصماء فقط.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ج) نماذج الحضور والانصراف السلوكية.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">د) النماذج الهيكلية الافتراضية للاتصالات السلكية.</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">33. يُطلق على النظام الذي يعتمد على استخلاص المعارف والخبرات البشرية وتخزينها لتقديم استشارات وحلول تفصيلية للمنظمات اسم:</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">أ) نظم التقارير الإدارية التقليدية.</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantMCQ(this, true)">ب) النظم الخبيرة المستندة للذكاء الاصطناعي (صفحة 52).</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ج) نظم الملفات المتتابعة الصماء.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">د) النظم الفرعية للتسويق المحيط.</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">34. الخطوة الأولى والأساسية في "دورة حياة تطوير النظم" التقليدية (SDLC) والتي تبدأ بها أي عملية برمجية بالمؤسسة هي:</p>
+            <div class="options">
+                <label class="option-label correct-answer-line" onclick="checkInstantMCQ(this, true)">أ) التخطيط المبدئي وإجراء دراسة الجدوى (صفحة 40).</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ب) كتابة الأكواد بلغات البرمجة.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ج) التدريب الميداني للموظفين.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">د) المراجعة والصيانة الدورية للنظام القديم.</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">35. تختلف النظم الخبيرة عن نظم دعم القرار التقليدية في أن النظم الخبيرة تمتلك مكوناً فريداً يُسمى "محرك الاستدلال" ووظيفته:</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">أ) تخزين جداول المبيعات الشهرية والسنوية.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ب) طباعة التقارير الإدارية الدورية لرؤساء الأقسام.</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantMCQ(this, true)">ج) إجراء القياسات المنطقية واستخلاص النتائج والتوصيات بناءً على القواعد المخزنة (صفحة 53).</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">د) ربط الحواسب الآلية بالشبكات السلكية الخارجية.</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+   <div class="question-box">
+            <p class="question-text">36. الحقل الفكري أو العمود المشترك الذي يتم وضعه في جدول "الابن" ليربطه بجدول "الأب" يُسمى:</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">أ) المفتاح الأساسي الذاتي.</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantMCQ(this, true)">ب) المفتاح الأجنبي أو الخارجي (Foreign Key) (صفحة 60).</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ج) الحقل التكراري الافتراضي.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">د) الفهرس الرياضي الصامت.</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">37. أي من الأنواع التالية يمثل علاقة قواعد البيانات عندما يمكن للمشروع الواحد أن يعمل به العديد من الموظفين، والموظف يعمل في مشروع واحد فقط؟</p>
+            <div class="options">
+                <label class="option-label correct-answer-line" onclick="checkInstantMCQ(this, true)">أ) علاقة رأس بأطراف (One-to-Many) (صفحة 62).</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ب) علاقة رأس برأس (One-to-One).</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ج) علاقة أطراف بأطراف (Many-to-Many).</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">د) العلاقة الصفرية المطلقة.</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">38. ما هو البروتوكول الفني المسؤول عن نقل واستقبال صفحات الويب ومواقع الإنترنت المختلفة عبر المتصفحات؟</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">أ) بروتوكول نقل الملفات التقليدي (FTP).</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ب) بروتوكول البريد الإلكتروني السريع (SMTP).</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantMCQ(this, true)">ج) بروتوكول نقل النص الفائق (HTTP) (صفحة 66).</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">د) نظام عنونة البيانات الافتراضي (MAC).</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">39. عندما تقوم "مصلحة الضرائب الحكومية" بتقديم خدمات تقديم الإقرارات الضريبية إلكترونياً للشركات والمؤسسات التجارية، فإن هذا النموذج يُسمى:</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">أ) مستهلك إلى مستهلك (C2C).</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ب) شركة إلى مستهلك (B2C).</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantMCQ(this, true)">ج) حكومة إلى أعمال (G2B) (صفحة 72).</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">د) أعمال إلى حكومة (B2G).</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">40. أي من الخيارات التالية يُعد من المعوقات والتحديات "التقنية الفنية" التي تواجه انتشار التجارة الإلكترونية بالشركات؟</p>
+            <div class="options">
+                <label class="option-label correct-answer-line" onclick="checkInstantMCQ(this, true)">أ) نقص الموثوقية والأمن، وضعف جودة الاتصالات والبرمجيات (صفحة 74).</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ب) العادات والتقاليد والثقافة المجتمعية الرافضة للشراء الرقمي.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ج) غياب القوانين والتشريعات المنظمة للمعاملات المالية.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">د) عدم ثقة المستهلكين في تسليم البضائع.</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">41. طوبولوجيا (شكل هندسي) للشبكات يتم فيها توصيل جميع الأجهزة الفردية بكابل رئيسي واحد ومفتوح من الطرفين هو:</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">أ) الشكل النجمي (Star Topology).</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantMCQ(this, true)">ب) الشكل الخطي أو الناقل (Bus Topology) (صفحة 65).</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ج) الشكل الحلقي الدائري (Ring Topology).</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">د) الشكل الشبكي المتداخل (Mesh).</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">42. نظام أو برنامج يُستخدم لترجمة أسامي المواقع المفهومة للبشر (مثل google.com) إلى عناوين الـ IP المفهومة للحاسب الآلي هو:</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">أ) نظام تشفير البيانات (SSL).</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantMCQ(this, true)">ب) خادم أسماء النطاقات (DNS) (صفحة 67).</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ج) الموجه الفني الذكي (Router).</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">د) بوابة العبور الإلكترونية (Gateway).</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+    
+    
+    <div class="question-box">
+            <p class="question-text">43. الهجوم السيبراني الذي يعتمد على إغراق السيرفر بطلبات وهمية مكثفة من أجهزة متعددة تؤدي إلى تعطل النظام وتوقفه عن الخدمة يُعرف بـ:</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">أ) هجوم التصيد الاحتيالي (Phishing).</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantMCQ(this, true)">ب) هجوم حجب الخدمة الموزع (DDoS Attack) (صفحة 78).</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ج) برمجيات التجسس غير المرئية.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">د) الهندسة الاجتماعية السلوكية.</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">44. آلية أمنية تعتمد على تحويل البيانات المقروءة إلى رموز وشفرات معقدة لمنع المتسللين من فهم محتواها في حالة اعتراضها تسمى:</p>
+            <div class="options">
+                <label class="option-label correct-answer-line" onclick="checkInstantMCQ(this, true)">أ) التشفير (Encryption) (صفحة 83).</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ب) النسخ الاحتياطي المتتابع.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ج) التدقيق والرقابة الحتمية.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">د) جدران الحماية الصامتة.</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">45. يشتمل "مثلث أمن المعلومات" الشهير (CIA Triad) على ثلاثة أركان أساسية لحماية الموارد الرقمية هي:</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">أ) السرعة، التكلفة، جودة البرمجيات.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ب) الشبكات، الحواسب، العنصر البشري الداخلي.</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantMCQ(this, true)">ج) السرية (Confidentiality)، السلامة (Integrity)، التوافر (Availability) (صفحة 81).</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">د) التصميم، البرمجة، الصيانة الدورية.</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">46. وسيلة مصادقة أمنية تعتمد على الخصائص البيولوجية الفريدة للإنسان مثل بصمة الإصبع أو بصمة العين للوصول للأنظمة الحساسة:</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">أ) كلمات المرور التقليدية (Passwords).</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantMCQ(this, true)">ب) المصادقة الحيوية (Biometric Authentication) (صفحة 85).</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ج) البطاقات الذكية الممغنطة فقط.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">د) أسئلة الأمان الافتراضية المكتوبة.</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">47. أي من الخيارات التالية يمثل جريمة "التصيد الاحتيالي" (Phishing) عبر شبكة الإنترنت؟</p>
+            <div class="options">
+                <label class="option-line" onclick="checkInstantMCQ(this, false)">أ) سرقة الأجهزة المادية من مقر الشركة.</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantMCQ(this, true)">ب) إرسال رسائل بريد إلكتروني مزيفة تحاكي البنوك لسرقة بيانات الحسابات السرية (صفحة 78).</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ج) تحديث البرامج المضادة للفيروسات بشكل دوري.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">د) تخزين الملفات على سحابة إلكترونية آمنة.</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">48. تسمى الاتفاقية أو الرخصة القانونية التي تحدد للمستخدم حقوق وقيود استخدام البرمجيات ومنع تداولها بشكل غير شرعي بـ:</p>
+            <div class="options">
+                <label class="option-label correct-answer-line" onclick="checkInstantMCQ(this, true)">أ) رخصة حزمة الاستخدام للمستفيد (End-User License Agreement) (صفحة 91).</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ب) وثيقة التأمين السيبراني الشامل.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ج) فاتورة الشراء التجارية الخارجية.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">د) شهادة الجودة والمواصفات القياسية.</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+
+        <div class="question-box">
+            <p class="question-text">49. توجه تكنولوجي حديث يعتمد على ربط الأجهزة والأدوات اليومية (مثل السيارات والأجهزة المنزلية) بشبكة الإنترنت لتبادل البيانات والتحكم بها عن بعد:</p>
+            <div class="options">
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">أ) النظم الفرعية الصامتة.</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">ب) النماذج المبدئية المكررة.</label>
+                <label class="option-label correct-answer-line" onclick="checkInstantMCQ(this, true)">ج) إنترنت الأشياء (Internet of Things - IoT) (صفحة 94).</label>
+                <label class="option-label" onclick="checkInstantMCQ(this, false)">د) الشبكات المحلية السلكية المقفلة.</label>
+            </div>
+            <div class="instant-feedback"></div>
+        </div>
+    
+    </div>
+
+    <script>
+        // دالة الصح والخطأ الفورية والذكية
+        function checkInstantTF(element, clickedAnswer, correctAnswer, feedbackText) {
+            let optionsContainer = element.parentElement;
+            if (optionsContainer.classList.contains('disabled')) return;
+            optionsContainer.classList.add('disabled');
+
+            let labels = optionsContainer.getElementsByTagName('label');
+            
+            if (clickedAnswer === correctAnswer) {
+                element.style.backgroundColor = '#d4edda';
+                element.style.color = '#155724';
+                element.style.borderColor = '#c3e6cb';
+            } else {
+                element.style.backgroundColor = '#f8d7da';
+                element.style.color = '#721c24';
+                element.style.borderColor = '#f5c6cb';
+                
+                for (let label of labels) {
+                    if (label !== element) {
+                        label.style.backgroundColor = '#d4edda';
+                        label.style.color = '#155724';
+                        label.style.borderColor = '#c3e6cb';
+                    }
+                }
+            }
+
+            let feedbackBox = optionsContainer.nextElementSibling;
+            feedbackBox.innerHTML = (clickedAnswer === correctAnswer ? "أنت صح! 🎉 " : "أنت غلط ❌ ") + feedbackText;
+            feedbackBox.style.display = 'block';
+            feedbackBox.className = "instant-feedback " + (clickedAnswer === correctAnswer ? "text-correct" : "text-wrong");
+        }
+
+        // دالة الاختيار من متعدد الفورية والذكية
+        function checkInstantMCQ(element, isCorrect) {
+            let parentBox = element.closest('.question-box');
+            let optionsContainer = element.parentElement;
+            
+            if(optionsContainer.classList.contains('disabled')) return;
+            optionsContainer.classList.add('disabled');
+
+            let feedback = parentBox.querySelector('.instant-feedback');
+            feedback.style.display = "block";
+
+            if (isCorrect) {
+                element.style.backgroundColor = '#d4edda';
+                element.style.color = '#155724';
+                element.style.borderColor = '#c3e6cb';
+                feedback.className = "instant-feedback text-correct";
+                feedback.innerText = "أنت صح! 🎯 إجابة ممتازة.";
+            } else {
+                element.style.backgroundColor = '#f8d7da';
+                element.style.color = '#721c24';
+                element.style.borderColor = '#f5c6cb';
+                feedback.className = "instant-feedback text-wrong";
+                feedback.innerText = "أنت غلط ✖. تم تحديد الإجابة الصحيحة باللون الأخضر.";
+                
+                let labels = optionsContainer.querySelectorAll('.option-label');
+                labels.forEach(lbl => {
+                    if(lbl.getAttribute('onclick').includes('true')) {
+                        lbl.style.backgroundColor = '#d4edda';
+                        lbl.style.color = '#155724';
+                        lbl.style.borderColor = '#c3e6cb';
+                    }
+                });
+            }
+        }
+    </script>
+</body>
+</html>
